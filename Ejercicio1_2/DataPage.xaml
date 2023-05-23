@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Ejercicio1_2.DataPage">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Margin="20" HorizontalTextAlignment="Center" TextColor="White" 
+                   BackgroundColor="DodgerBlue" FontSize="Title">Informacion Personal</Label>
+            <Label Margin="20" HorizontalTextAlignment="Center" TextColor="White" 
+                   BackgroundColor="DodgerBlue" FontSize="Large" x:Name="txtNameData" Text="{Binding name}"></Label>
+            <Label Margin="20" HorizontalTextAlignment="Center" TextColor="White" 
+                   BackgroundColor="DodgerBlue" FontSize="Large" x:Name="txtSecNameData" Text="{Binding sec_Name}"></Label>
+            <Label Margin="20" HorizontalTextAlignment="Center" TextColor="White" 
+                   BackgroundColor="DodgerBlue" FontSize="Large" x:Name="txtEdadData" Text="{Binding age}"></Label>
+            <Label Margin="20" HorizontalTextAlignment="Center" TextColor="White" 
+                   BackgroundColor="DodgerBlue" FontSize="Large" x:Name="txtCorreoData" Text="{Binding email}"></Label>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
